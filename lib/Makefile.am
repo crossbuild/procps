@@ -1,4 +1,4 @@
-AM_CPPFLAGS = -include $(top_builddir)/config.h -I$(top_srcdir)/include
+AM_CPPFLAGS = -include $(top_builddir)/config.h -I$(top_srcdir)/include -I$(top_srcdir)
 
 AM_CPPFLAGS += -DTEST_PROGRAM
 
